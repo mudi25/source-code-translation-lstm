@@ -1,5 +1,5 @@
 {
-  "name": "penelitian-terjemahan",
+  "name": "source-code-translation-lstm",
   "version": "1.0.0",
   "main": "dist/main.ts",
   "license": "MIT",
