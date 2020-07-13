@@ -4,8 +4,10 @@
   "main": "dist/main.ts",
   "license": "MIT",
   "scripts": {
-    "train": "nodemon src/train.ts",
-    "testing": "nodemon src/testing.ts"
+    "generate": "nodemon src/generateData.ts",
+    "dev": "nodemon src/main.ts",
+    "generateSource": "nodemon src/generateSource.ts",
+    "testingCode": "nodemon src/testingCode.ts"
   },
   "devDependencies": {
     "@types/node": "^14.0.19",
@@ -16,6 +18,11 @@
     "typescript": "^3.9.5"
   },
   "dependencies": {
-    "brain.js": "^2.0.0-beta.1"
+    "@nestjs/common": "^7.3.2",
+    "@nestjs/core": "^7.3.2",
+    "brain.js": "^2.0.0-beta.1",
+    "randomstring": "^1.1.5",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^6.6.0"
   }
 }

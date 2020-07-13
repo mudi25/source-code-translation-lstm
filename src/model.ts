@@ -1,4 +1,9 @@
 export interface SampelModel {
+  z1: Date; //0
+  z2?: Date; //1
+  z3: Date[]; //2
+  z4?: Date[]; //3
+
   a1: boolean; //0
   a2?: boolean; //1
   a3: boolean[]; //2
@@ -18,4 +23,10 @@ export interface SampelModel {
   e2?: any; //13
   e3: any[]; //14
   e4?: any[]; //15
+
+  x1: Map<number, Date>; //32
+  x2: Map<number, boolean>; //32
+  x3: Map<number, string>; //32
+  x4: Map<number, number>; //32
+  x5: Map<number, any>; //32
 }
